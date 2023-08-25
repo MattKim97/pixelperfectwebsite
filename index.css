@@ -225,6 +225,7 @@ border: none;
     margin-right: auto;
     max-width: 65rem;
     column-gap: 10px;
+    padding-bottom: 20px;
 }
 .dinosaur__grid div img{
     max-width: 3.25rem;
@@ -266,11 +267,12 @@ border: none;
     background-color: #61B7D4;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-rows: 75px 25px 75px;
     grid-template-areas: 
     "flying started rcloud"
     ". signup ."
     "lcloud button landdino";
+    row-gap: 20px;
 }
 .flying__dino{
     display: flex;
@@ -323,7 +325,74 @@ grid-area: flying;
 
 .dinosignup__button button{
 background-color: #61E064;
+width: 200px;
+height: 50px;
+color: white;
+border: lightgreen 1px solid;
+font-weight: bold;
+}
 
+.listoflinks{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.__list1 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    font-size: medium;
+}
+.__list2 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    font-size: medium;
+}
+.__list3 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    font-size: medium;
+}
+.__list4 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    font-size: medium;
+}
+.__list5 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    font-size: medium;
+}
+
+.__list1 a:hover{
+    text-decoration: underline;
+}
+.__list2 a:hover{
+    text-decoration: underline;   
+}
+.__list3 a:hover{
+    text-decoration: underline; 
+}
+.__list4 a:hover{
+    text-decoration: underline;
+}
+.__list5 a:hover{
+    text-decoration: underline;
 }
 
 :root{
