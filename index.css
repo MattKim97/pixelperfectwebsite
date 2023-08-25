@@ -336,6 +336,7 @@ font-weight: bold;
     padding-top: 15px;
     display: flex;
     justify-content: space-evenly;
+    margin: 30px;
 }
 
 .__list1 a{
@@ -344,7 +345,7 @@ font-weight: bold;
     text-decoration: none;
     color: gray;
     padding: 5px;
-    font-size: medium;
+    font-size: small;
 }
 .__list2 a{
     display: flex;
@@ -352,7 +353,7 @@ font-weight: bold;
     text-decoration: none;
     color: gray;
     padding: 5px;
-    font-size: medium;
+    font-size: small;
 }
 .__list3 a{
     display: flex;
@@ -360,7 +361,7 @@ font-weight: bold;
     text-decoration: none;
     color: gray;
     padding: 5px;
-    font-size: medium;
+    font-size: small;
 }
 .__list4 a{
     display: flex;
@@ -368,7 +369,7 @@ font-weight: bold;
     text-decoration: none;
     color: gray;
     padding: 5px;
-    font-size: medium;
+    font-size: small;
 }
 .__list5 a{
     display: flex;
@@ -376,7 +377,7 @@ font-weight: bold;
     text-decoration: none;
     color: gray;
     padding: 5px;
-    font-size: medium;
+    font-size: small;
 }
 
 .__list1 a:hover{
@@ -393,6 +394,37 @@ font-weight: bold;
 }
 .__list5 a:hover{
     text-decoration: underline;
+}
+
+.footer__text2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    border-bottom: 1px solid gray;
+}
+.footer__text2 ul{
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+}
+.footer__text2 ul li{
+    color: darkgray;
+    display: flex;
+    padding: 0 15px;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
 }
 
 :root{
